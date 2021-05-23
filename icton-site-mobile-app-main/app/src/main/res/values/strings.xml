@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ICTapp</string>
+
+    <string name="enter">Войти</string>
+    <string name="login">Вход</string>
+
+    <string name="registration">Регистрация</string>
+    <string name="enter_registration">Зарегистрироваться</string>
+
+    <string name="event">Мероприятие</string>
+    <string name="project">Проект</string>
+
+    <string name="username">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="first_name">Имя</string>
+    <string name="second_name">Фамилия</string>
+    <string name="is_student">Вы студент</string>
+
+    <string name="incorrect_username">Некорректно введен логин</string>
+    <string name="incorrect_password">Некорректно введен пароль</string>
+    <string name="incorrect_first_name">Некорректно введено имя</string>
+    <string name="incorrect_second_name">Некорректно введена фамилия</string>
+
+    <string name="sign_failed">Ошибка подключения</string>
+    <string name="q_and_a">Вопросы</string>
+    <string name="clubs">Клубы</string>
+    <string name="events">Мероприятия</string>
+    <string name="add">Добавить</string>
+
+    <string name="add_question">Добавить вопрос</string>
+    <string name="add_question_btn">Добавить</string>
+    <string name="cancel_question_btn">Отмена</string>
+    <string name="answer">Ответить</string>
+    <string name="news">Новости</string>
+
+    <string name="in_develop">В разработке</string>
+</resources>
