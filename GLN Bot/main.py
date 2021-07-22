@@ -5,8 +5,8 @@ from sqlalchemy.exc import IntegrityError, InvalidRequestError
 from database.db import Database
 from database.models import User
 
-TOKEN = "1949761630:AAEx-kJUCDVstVkd5nQNUPlxF1xrRpKNNjw"
-TEST_payment_token = "381764678:TEST:27635 2021-07-19 14:01"
+TOKEN = "TOKEN"
+TEST_payment_token = "TOKEN"
 admin_password = "pass"
 txt_dt = datetime.now()
 txt_dt2 = datetime.now()
