@@ -1,6 +1,6 @@
 import telebot
 
-TOKEN = "1792959858:AAGaxstHBlx_NzpZEL8PP5f5U37tBohSpV8"
+TOKEN = "TOKEN"
 bot = telebot.TeleBot(TOKEN)
 
 sorts = ["Обычный", "Грейпфрут", "Апельсин"]
