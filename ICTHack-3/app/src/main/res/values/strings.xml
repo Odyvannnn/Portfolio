@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ICTHack#3</string>
+    <string name="splashText">Рады приветствовать</string>
+    <string name="entryToken">Токен входа</string>
+    <string name="entryButton">Войти</string>
+    <string name="buy_pig_str">Свинья - 100</string>
+    <string name="buy_goose_str">Гусь - 200</string>
+    <string name="buy_goat_str">Козел - 300</string>
+    <string name="buy_str">Купить</string>
+</resources>

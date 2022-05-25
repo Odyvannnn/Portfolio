@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.screens.GameFragment"
+    android:padding = "10pt">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/white"
+        app:borderWidth="0dp"
+        android:outlineSpotShadowColor="@color/design_default_color_background"
+
+        android:foreground="@drawable/profile_logo_v2"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/buttonShop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896"
+        android:backgroundTint="@color/white"
+        app:borderWidth="0dp"
+        android:outlineSpotShadowColor="@color/design_default_color_background"
+        android:src ="@drawable/shop_logo"
+        app:maxImageSize="45sp"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonProfile"
+        android:backgroundTint="@color/white"
+        app:borderWidth="0dp"
+        android:outlineSpotShadowColor="@color/design_default_color_background"
+        android:src="@drawable/rate_logo"
+        app:maxImageSize="45sp"
+
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

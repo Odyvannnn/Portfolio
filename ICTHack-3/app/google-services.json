@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1070659437897",
+    "project_id": "icton3-36202",
+    "storage_bucket": "icton3-36202.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070659437897:android:685c1241592e5514420698",
+        "android_client_info": {
+          "package_name": "com.length.icthack3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070659437897-0p3ji8g4gtc3ca4539lt0hqj1eglm972.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0A9vhfGeK8ayOfEjb3eGHVTxC1kO9FLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070659437897-0p3ji8g4gtc3ca4539lt0hqj1eglm972.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
